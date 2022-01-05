@@ -1,0 +1,14 @@
+
+[profile.bench]
+debug = true
+
+[workspace]
+members = [
+    "side-channel-client",
+	"side-channel-attacker",
+]
+default-members = [
+    "side-channel-client",
+	"side-channel-attacker",
+]
+
